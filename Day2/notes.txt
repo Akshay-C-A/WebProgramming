@@ -1,0 +1,10 @@
+Charcter Entity
+
+& - &amp;
+copyright - &compy;
+em dash - &mdash;
+
+3&frasl;16 for 3/16;
+
+TM - trademark - &trade;
+registered trademark - &reg;
