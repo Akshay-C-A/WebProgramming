@@ -8,4 +8,4 @@ Welcome to my Web Programming repository!
 
 ### Tutorial 2: [View Tutorial 2](https://akshay-c-a.github.io/WebProgramming/Tutorial2/Tutorial2.html)
 
-Thank you for visiting my Web Programming repository.
+
