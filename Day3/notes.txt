@@ -1,0 +1,15 @@
+Tables
+
+<table> tag is used.
+
+border attribute gives lines
+<caption> - table title
+
+New Format for tables in HTML5:
+<thead>
+<tbody>
+<tfoot>
+<th> and <tr> - column and row
+<td> - table data
+
+
