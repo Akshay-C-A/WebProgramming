@@ -87,15 +87,66 @@
 
     <br><br>
 
-    <table border="border" align="center">
-        <caption>rowspan</caption>
+    <table border="border" align="center" width="300">
         <thead>
             <tr>
-                <th>Batch</th>
+                <th colspan="2">Flower Show</th>
             </tr>
             <tr>
-                    <th>A</th>
-                    <th>B</th>
+                <th>Flower Name</th>
+                <th>Colour</th>
+            </tr>
+        </thead>
+            <tr align="center">
+                <td>Red Rose</td>
+                <td>Red</td>
+            </tr>
+
+            <tr align="center">
+               <td>White Rose</td>
+               <td rowspan="2">White</td> 
+            </tr>
+
+            <tr align="center">
+                <td>Jasmine</td>
+            </tr>
+
+            <tr align="center">
+                <td>Sunflower</td>
+                <td>Yellow</td>
+            </tr>
+    </table>
+
+    <br><br>
+
+    <table border="border" align="center">
+        <caption>A more complex sample table</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"><img src="camel.png" alt="camel.png" width="150" height="150"></th>
+                <th colspan="4">Camelid comparison <br> Approximate as of 6/2011</th>
+            </tr>
+            <tr>
+                <th># of humps</th>
+                <th>Indigenous region</th>
+                <th>Spits?</th>
+                <th>Produces wool?</th>
+            </tr>
+            
+            <tr>
+                <th>Camels (bactrian)</th>
+                <td>2</td>
+                <td>Africa/Asia</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+
+            <tr>
+                <th>Llamas</th>
+                <td>1</td>
+                <td>Andes Mountains</td>
+                <td>Yes</td>
+                <td>Yes</td>
             </tr>
         </thead>
     </table>
