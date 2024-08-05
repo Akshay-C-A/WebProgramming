@@ -1,0 +1,24 @@
+cell spacing specifies distance between cells in a table.
+cell padding specifies distance between content of cell and inner walls of the cells.
+
+FORMS
+<form> tag is used to create form
+used to collect user input
+action attribute is used with form tag
+<form action="url">
+    ...
+    form elements
+    ..
+<form/>
+
+method attribute is also used
+method="get"
+    query sting contains data so not secure
+    never use sensitive data with get method
+    limited characters can only be send
+method="post"
+    data is not shown in url
+    no limitations on size
+    form submission cannot be bookmarked
+
+input has attribute value
