@@ -60,7 +60,7 @@
             <input type="file" name="" id=""><br><br>
 
             <label for="">Image</label>
-            <input type="image" src="Day4/camel.png" alt=""><br><br>
+            <input type="image" src="/Day4/camel.png" alt="" width="75" height="50"><br><br>
 
             <label for="">Number</label>
             <input type="number" name="" id=""><br><br>
@@ -87,8 +87,31 @@
             <label for="">Telephone  </label>
             <input type="tel" name="" id="" autofocus>
         </p>
+        <br><br>
 
         <!-- datalist -->
+        <h4>Data List</h4>
+        <p>
+            <label for="txtlist">BIRTH MONTH : </label>
+            <input type="text" id="txtlist" placeholder="Select a Week" list="week">
+            <datalist id="week">
+                <option value="Monday"></option>
+                <option value="Tuesday"></option>
+                <option value="Wednesday"></option>
+                <option value="Thursaday"></option>
+                <option value="Friday"></option>
+                <option value="Saturday"></option>
+                <option value="Sunday"></option>
+            </datalist>
+        </p>
+
+    </form>
+    <br><br>
+
+    <h4>Login</h4>
+    <form action="login.php">
+        USERNAME: <input type="text" name="uname"><br><br>
+        PASSWORD: <input type="password" name="pass" id="pass">
     </form>
 </body>
-</html>
+</html
