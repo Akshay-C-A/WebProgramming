@@ -1,0 +1,11 @@
+Audio and Video tag
+
+Audio information is coded into digital streams with encoding algorithm called audio codec.
+codec - coder-decoder - ecodes or decodes data stream.
+codec knows how to handle specific encoding or compression technology.
+coded audio is stored in containers.
+MP3,Ogg,Wav
+WAV - uncompressed audio
+
+Multimedia audio tag formats - MIME Types
+MIME - Multipurpose Internet Mail Extension - data format
