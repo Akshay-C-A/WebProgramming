@@ -1,0 +1,14 @@
+CSS-Casscading Style Sheet
+
+Advantges of CSS3
+-Saves time
+-Easy to change
+-Keep consistency(Always behave in the same way)
+-more control over layout
+-uses styles with JavaScript
+-create a common format for all the Web pages
+
+Types of CSS
+Inline Style Sheet
+Embedded Style Sheet
+External Style Sheet
