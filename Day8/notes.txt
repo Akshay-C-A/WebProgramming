@@ -1,0 +1,28 @@
+                            CSS - Cascading Style Sheets
+
+-> Style Rules
+-> Selector{property1:value1;property2:value2:......}
+eg:-
+    h1{font-size:12pt;color:red;}
+
+Order of precedence:
+    1.Inline
+    2.Embedded
+    3.External
+    4.Browser Default
+
+Inline :
+    <.. style="property1:value1;property2:value2:......">
+
+External:
+    <link href=URL rel="stylesheet" type="link_type">
+    do not include style tag in external stylesheet
+
+HTML Standard Color Set:
+    aqua black blue gray white teal yellow silver lime green yellow white fuchsia
+
+Skinning - modifying only one CSS page to reflect the change in many html pages.
+
+Conflicting styles : - By author, user and user agent.
+
+
