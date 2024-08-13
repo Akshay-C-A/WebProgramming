@@ -1,0 +1,26 @@
+CSS Selectors
+    -is used to find the HTML element you want to style.
+    6 different types of Selector:
+        Simple
+        class
+        generic 
+        Id 
+        Universal
+        sudo class
+    
+    Simple Selector:
+        it is a list of style rules and property values in the rule apply to all occurences of the all of the named element.
+        eg: h1,h3 {font-size:23px;}
+            h2{font-size: 21px;}
+        Contextual Selector:
+            body b i{font-size:24px; }
+        Format:
+            element.class_name{
+
+            }
+    
+    Generic Selector:
+        .class_name{
+            ...;
+            ...;
+        }
