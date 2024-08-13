@@ -6,6 +6,11 @@
     <title>FAQ</title>
     
     <style>
+        *{
+            color: red;
+            /* background-color: rgb(161, 161, 217); */
+        }
+
         p.ques{
             font-weight: bold;
             font-style: italic;
@@ -30,18 +35,48 @@
         #one{
             color: blueviolet;
         }
+
+        input:hover{
+            width: 300px;
+            height: 40px;
+            /* border-top: dotted; */
+        }
+
+        input:focus{
+            background-color: blue;
+        }
+
+        a:link{
+            color: yellow;
+        }
+
+        a:visited{
+            color:green;
+        }
+
+        a:active{
+            color:rgb(0, 0, 0);
+        }
+
+        ol{
+            list-style-type: upper-roman;
+        }
+        ol ol{
+            list-style-type: armenian;
+        }
+
     </style>
 </head>
 <body>
     <h1>FAQ</h1>
-    <p class="ques">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
+    <p class="ques" style="text-transform: capitalize;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
     <p class="ans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, 
         enim maiores provident, at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet.
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, 
         enim maiores provident, at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet
     </p>
 
-    <p class="ques">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
+    <p class="ques" style="border: solid;border-color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
     <p class="ans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, enim maiores provident, 
         at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, 
         enim maiores provident, at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet
@@ -54,13 +89,13 @@
     </p>
 
     <p class="ques" id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
-    <p class="ans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, enim maiores provident, 
+    <p class="ans" style="letter-spacing: 2px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, enim maiores provident, 
         at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, 
         enim maiores provident, at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet
     </p>
 
-    <p class="ques">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
-    <p class="ans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, enim maiores provident, 
+    <p class="ques" style="word-spacing: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores?</p>
+    <p class="ans" style="line-height: 30px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, enim maiores provident, 
         at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur totam, tenetur reiciendis soluta, 
         enim maiores provident, at odit explicabo perspiciatis ipsam aperiam reprehenderit quos deleniti omnis iste commodi impedit amet
     </p>
@@ -73,6 +108,41 @@
     <p class="admstext">SJCET ADMISSION 2024</p>
     <p class="regtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem amet velit excepturi illo optio doloribus deleniti quibusdam aut! Quidem ut quae ratione aut veniam aspernatur labore quam! Omnis, atque obcaecati. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero illo culpa quam magni, voluptates alias? Architecto fugit voluptatibus eligendi est ipsam non soluta, ut doloribus praesentium alias cum sed eu</p>
     
+    <br><br><br>
 
+    <form action="" method="post"> 
+        <input type="text" placeholder="Hover around">
+    </form>
+
+    <br><br><br>
+
+    <a href="https://www.wix.com/studio"> Click Me</a>
+
+    <br><br><br>
+
+    <select name="groceries" id="">
+        <option value="">Apple</option>
+        <option value="">Orange</option>
+        <option value="">hELLO</option>
+    </select>
+
+    <br><br>
+
+    <ul>
+        <li>hai</li>
+        <!-- <li style="list-style-image: url(/Day4/camel.png);"></li> -->
+    </ul>
+
+    <br><br>
+
+    <ol>
+        <li>Hai</li>
+        <ol>
+            <li>Hello</li>
+        </ol>
+    </ol>
+
+
+    
 </body>
 </html>

@@ -24,3 +24,28 @@ CSS Selectors
             ...;
             ...;
         }
+
+Pseudo classes
+    selector:pseudo-class{
+        porperties:value;
+        ....
+    }
+
+Five common CSS property:
+    list property
+    font property
+    border property
+    text property
+
+
+    length values can be given in px or pt or pc or in or cm or mm
+    number values can be integers
+    percentage is related to the current or default value
+    url values
+    color values
+    text properties - text-transform
+    border properties
+    font properties
+
+Font shorthand:
+    font:bold 24pt 'Times New Roman' Platino Helvetica
