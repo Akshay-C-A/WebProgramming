@@ -1,0 +1,6 @@
+Absolute Position and Realtive Position
+    -position: absolute then properties will be of that relative to the parent . if no parent then body becomes the parent.
+    -position: relative will cause it to adjust from its parent positon.
+
+Div and Span tag
+    -Div tag is used to create a document section
