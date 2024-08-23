@@ -1,0 +1,11 @@
+javascript can be put in .js file externally.
+
+primitive data types:
+    Number
+    String
+    Boolean
+    Undefined 
+    Null
+
+Non primitive data types:
+    arr
