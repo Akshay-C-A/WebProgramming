@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function printme(){
+            var numstring = "42" ;
+            var parnum = parseInt(numstring);
+    
+            var notNum = "Hai";
+    
+            alert(notNum +" - Not a number: "+isNaN(notNum));
+            alert(parnum +" - Not a number: "+isNaN(parnum));
+        }
+
+        function printarray(){
+            var s = new Array('AA','BB','CC');
+            
+            //document.writeln("<h3>"+s[2]+" "+s[1]+" "+s[0]+" "+"</h3>")
+            //document.getElementById("one").innerHTML= s[2]+" "+s[1]+" "+s[0]
+
+            //s.push('XX')
+            //s.pop()
+
+            //for(i=0;i<s.length;i++)
+            //{
+            //    alert(s[i]);
+            //}
+
+            //s.shift()
+            //s.unshift('PP');
+
+            //delete(s[1]);
+            //s.splice(1,0,'YY','ZZ');
+
+            //var p = new Array('XX','YY','ZZ');
+            //var newa = s.concat(s,p,p,s);
+            //alert(newa);
+
+
+            alert(s);
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <input type="button" value="Print Me" onclick="printme()"><br><br>
+    <input type="button" value="Print Array" onclick="printarray()">
+    <!-- <h3 class="one">.</h3> -->
+    <!-- slice method try
+    sort method try -->
+</body>
+</html>

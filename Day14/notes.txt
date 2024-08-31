@@ -1,0 +1,5 @@
+Array
+
+var s = new Array(10,20,,30,40);
+s[2] is undefined
+size of the array is dynamic
