@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+
+    <script>
+        function validate()
+        {
+            var username = document.getElementById("uname").value;
+            var password = document.getElementById("pass").value;
+
+            if(username.trim() == ""){
+                alert("Username should not be blank ");
+                document.getElementById("uname").value = "";
+                document.getElementById("pass").value ="";
+                return false;
+
+            }
+            else if(password.length < 6){
+                alert("Password must not be less than 6 characters");
+                document.getElementById("uname").value = "";
+                document.getElementById("pass").value ="";
+                return false;
+            }
+            else{
+                alert("Successful Login");
+                return true;
+            }
+         
+            
+        }
+    </script>
+    
+</head>
+<body> 
+    <center>
+        <h1>Question 1</h1>
+
+        <br><br>
+
+        <form onsubmit="return validate()">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" id="uname">
+
+            <br><br>
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" >
+
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </center>
+</body>
+</html>
