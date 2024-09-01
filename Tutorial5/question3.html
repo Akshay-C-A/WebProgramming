@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+
+    <script>
+        function calcSalary()
+        {
+            var resultVal=""
+            for(var i=1;i<=3;i++){
+                var hr = prompt(`Enter hours worked by Employee ${i} :`);
+                var rate = prompt(`Enter hourly rate of Employee ${i} :`);
+                if(hr<=40){
+                    salary= hr*rate;
+                }
+                else{
+                    salary= 40*rate + (hr-40)*rate*1.5;
+                }
+                resultVal += `           
+                <tr>
+                    <td> Employee ${i} </td>
+                    <td> ${salary} </td>
+                </tr>`;
+            }
+            document.getElementById("result").innerHTML = resultVal;
+        }
+    </script>
+
+</head> 
+<body>
+    <center>  
+        <h1>Question 3</h1>
+        <br><br><br>
+
+        <input type="button" value="Click Here to Enter Employee details" onclick="calcSalary()">
+        <br><br><br>
+        
+        <h2 style="text-decoration: underline;">Salary</h2>
+
+        <table border="border" width="300px">
+            <thead>
+                <tr>
+                    <th>Employee</th>
+                    <th>Salary(in Rs)</th>
+                </tr>
+            </thead>
+            <tbody id="result"> </tbody>
+        </table>
+        <br>
+
+        
+    </center>
+</body>
+</html>
