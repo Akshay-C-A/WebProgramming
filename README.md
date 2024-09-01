@@ -10,5 +10,7 @@ Welcome to my Web Programming repository!
 
 ### Tutorial 4: [View Tutorial 4](https://akshay-c-a.github.io/WebProgramming/Tutorial4/index.html)
 
+### Tutorial 5: [View Tutorial 5](https://akshay-c-a.github.io/WebProgramming/Tutorial5/tutorial5.html)
+
 ### Tutorial 7: [View Tutorial 7](https://akshay-c-a.github.io/WebProgramming/Tutorial7/tutorial7.html)
 
