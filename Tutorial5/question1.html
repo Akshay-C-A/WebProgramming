@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+
+    <script>
+        var num = prompt("Enter a Number to find Factorial of : ");
+        if(num != "")
+        {
+            var fact=1;
+            for(var i=num;i>0;i--)
+            {
+                fact=fact*i;
+            }
+            document.writeln(`<h3>Factorial of ${num} is ${fact}</h3>`);
+        }
+        else
+        {
+            document.writeln("<h3>Refresh this page and enter a number</h3>");
+        }
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
