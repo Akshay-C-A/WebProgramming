@@ -1,4 +1,3 @@
-# Web Programming Repository
 
 Welcome to my Web Programming repository!
 
