@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+
+    <script>
+        function validate()
+        {
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var uname = document.getElementById("uname").value;
+            var pass = document.getElementById("pass").value;
+            var cpass = document.getElementById("cpass").value;
+
+            if(name.trim() == ""){
+                alert("Name is required");
+                return false;
+            }
+            else if(isNaN(phone) || phone.length!=10){
+                alert("10 digit phone number is required");
+                return(false);
+            }
+            else if(email.trim()==""){
+                alert("Email is required");
+                return false;
+            }
+            else if(uname.trim() == ""){
+                alert("Username is required");
+                return false;
+            }
+            else if(pass.trim() == ""){
+                alert("Password is required");
+                return false;
+            }
+            else if(pass.length < 6){
+                alert("Password should be atleast 6 characters long");
+                return false;
+            }
+            else if(pass!=cpass){
+                alert("Passwords does not match");
+                return false;
+            }
+            else{
+                alert("Successfully Registered");
+                window.location.href = "/Tutorial6/login.html";
+                return true;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <center>
+        <h1>Register</h1>
+        <form onsubmit="return validate()">
+            <label for="name">Name </label>
+            <input type="text" id="name">
+            <br><br>
+
+            <label for="phone">Phone </label>
+            <input type="tel" name="phone" id="phone">
+            <br><br>
+
+            <label for="email" >Email </label>
+            <input type="email" name="email" id="email" >
+            <br><br>
+
+            <label for="uname">Username </label>
+            <input type="text" id="uname">
+            <br><br>
+
+            <label for="pass">Password </label>
+            <input type="password" name="pass" id="pass">
+            <br><br>
+
+            <label for="cpass">Confirm Password </label>
+            <input type="password" name="cpass" id="cpass">
+            <br><br>
+
+            <input type="submit" value="Register">
+        </form>
+        <br>
+        <p>Already a user ? <a href="login.html" style="text-decoration: none;">Login</a></p>
+    </center>
+</body>
+</html>
