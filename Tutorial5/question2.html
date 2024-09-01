@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+
+    <script>
+        function checkPalindrome()
+        {
+            var n = document.getElementById("num").value;
+            if(n.length!=5 || isNaN(n))
+            {
+                alert("Enter a FIVE DIGIT NUMBER");
+                document.getElementById("num").value = '';
+            }
+            else
+            {
+                var rev = n.split('').reverse().join('')
+                if(n == rev)
+                {
+                    alert(`${n} IS a Palindorme`);
+                }
+                else{
+                    alert(`${n} IS NOT a Palindorme`);
+                }
+                document.getElementById("num").value = '';
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Question 2</h1>
+    <br><br><br>
+    <center>
+        <input type="text" id="num" maxlength="5" placeholder="Enter a 5 digit number"><br><br>
+        <input type="button" value="Check" onclick="checkPalindrome()">
+    </center>
+</body>
+</html>
