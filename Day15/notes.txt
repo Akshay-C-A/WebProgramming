@@ -1,0 +1,8 @@
+Built in sort function only used to sort string.
+Javscript objects are named values.
+javascript objects are always written with curly braces
+
+
+Math object method
+
+
