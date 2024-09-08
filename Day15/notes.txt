@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-DOM
-
-Document Object Model
-
-window is parent
-Document is the child
-=======
 Built in sort function only used to sort string.
 Javscript objects are named values.
 javascript objects are always written with curly braces
@@ -13,5 +5,3 @@ javascript objects are always written with curly braces
 
 Math object method
 
-
->>>>>>> c8b5f88b1e0383b753108176a99d158d0121c63b

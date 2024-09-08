@@ -1,0 +1,6 @@
+DOM
+
+Document Object Model
+
+window is parent
+Document is the child
