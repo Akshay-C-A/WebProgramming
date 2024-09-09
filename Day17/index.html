@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function add(){
+           /* const node = document.createTextNode("Added Element");
+            const para = document.createElement("h2")
+            para.appendChild(node);
+            const ele = document.getElementById("div1");
+            //ele.appendChild(para);
+            const child= document.getElementById("p1");
+            ele.insertBefore(para,child) */
+
+            //document.getElementById("p1").remove();
+
+            /*const node = document.createTextNode("I am new element");
+            const para = document.createElement("p");
+            para.appendChild(node);
+            const parent = document.getElementById("div1");
+            const child = document.getElementById("p1");
+            parent.replaceChild(para,child);*/
+        }
+
+        function getLinks(){
+            var linklength = document.links.length;
+            document.getElementById("DisplayLink").textContent = 'Total Links: '+ links;
+        }
+
+    </script>
+
+</head>
+<body>
+    <!-- <p div="div2">Adding an HTML </p>
+
+    <div id="div1">
+        <p id="p1">Para 1</p>
+        <p>Para 2</p>
+    </div> -->
+    <!-- <button onclick="add()">ADD Content</button> -->
+    <!-- <button onclick="add()">Remove Content</button>   -->
+    <!-- <button onclick="add()">Replace Content</button> -->
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Links Collection Length</legend>
+            <a href="https://www.google.com">Google</a> &nbsp;
+            <a href="https://www.youtube.com">Youtube</a> &nbsp;
+            <a href="https://www.whatsapp.com">Whatsapp</a> &nbsp; <br><br>
+            <input type="button" value="Get Links" onclick="getLinks()"><br><br>
+            <div id="DisplayLink"></div>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
