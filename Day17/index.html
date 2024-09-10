@@ -26,8 +26,16 @@
         }
 
         function getLinks(){
+            var divDispay = document.getElementById("DisplayLink")
             var linklength = document.links.length;
-            document.getElementById("DisplayLink").textContent = 'Total Links: '+ links;
+            const linksCollection = document.links;
+            divDispay.innerHTML = 'Total Links: '+ linklength + '<br>';
+            for(var i=0;i<linklength;i++){
+                // document.getElementById("DisplayLink").textContent += '--> '+document.links[i]+'<br>'; 
+                divDispay.innerHTML += "Link URL: " + linksCollection[i].href + '<br>';
+                divDispay.innerHTML += "Link : Content" + linksCollection[i].textContent + '<br>';
+
+            }
         }
 
     </script>

@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function greet(name,callback){
+            document.writeln('Hello '+name+'! <br>');
+            setTimeout(callback,2000);  // To have a delay of 2 sec
+        }
+
+        function goodBye(){
+            document.writeln('GoodBye '+name+'! <br>');
+        }
+
+        //  greet('Akshay',goodBye) 
+    </script>
+
+</head>
+<body>
+    <button onclick="greet('Akshay',goodBye)">Click Here</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    <h1 id="result"></h1>
+    <script>
+        const add = (a,b) => a+b;
+        var num1 = parseInt(prompt("Enter number 1"));
+        var num2 = parseInt(prompt("Enter number 2"));
+        const sum = add(num1,num2);
+        document.getElementById("result").innerHTML = `The sum is ${sum}.`
+
+    </script>
+</body>
+</html>
