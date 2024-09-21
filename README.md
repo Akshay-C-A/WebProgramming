@@ -1,5 +1,9 @@
 Welcome to my Web Programming repository!
 
+## Assignments
+### Assignment 1: [View Assignment 1](https://akshay-c-a.github.io/Portfolio/)
+
+
 ## Tutorials
 
 ### Tutorial 1: [View Tutorial 1](https://akshay-c-a.github.io/WebProgramming/Tutorial1/index.html)
@@ -15,4 +19,6 @@ Welcome to my Web Programming repository!
 ### Tutorial 6: [View Tutorial 6](https://akshay-c-a.github.io/WebProgramming/Tutorial6/tutorial6.html)
 
 ### Tutorial 7: [View Tutorial 7](https://akshay-c-a.github.io/WebProgramming/Tutorial7/tutorial7.html)
+
+
 
