@@ -20,5 +20,7 @@ Welcome to my Web Programming repository!
 
 ### Tutorial 7: [View Tutorial 7](https://akshay-c-a.github.io/WebProgramming/Tutorial7/tutorial7.html)
 
+## PHP Programs
+### Repo: [View PHP Repo](https://github.com/Akshay-C-A/WebPHP)
 
 
