@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var myObj = {"name":"John","age":31,"city":"New York"};
+        document.getElementById("demo").innerHTML = myObj.name + "<br>" + myObj.age + "<br>" + myObj.city;
+    </script>
+    <br><br>
+    <script>
+        for(x in myObj)
+    {
+        document.write(x+" = "+myObj[x]+"<br>");
+
+    }
+    </script>
+    <br><br>
+    <script>
+        var myObj = {
+            "name":"John",
+            "age":31,
+            "cars":{
+                "car1" : "Ford",
+                "car2" : "BMW",
+                "car3" : "Fiat"
+            }
+        };
+
+        for(var key in myObj){
+            
+        }
+    </script>
+</body>
+</html>

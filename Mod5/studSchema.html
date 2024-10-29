@@ -1,0 +1,12 @@
+<script type="module" src="">
+    import Ajv from "https://cdn.skypack.dev/ajv@8.6.2";
+    const ajv = new Ajv();
+    const schema = {
+        type: "object",
+        properties: {
+            name : {type : "string"},
+            age : {type : "number", minimum: 18}
+        }
+    }
+
+</script>

@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Record of student",
+    "description": "document records the details of a Student",
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "A unique identifier for a Student",
+        "type": "number"
+      },
+      "name": {
+        "description": "full name of the student",
+        "type": "string",
+        "minLength": 3
+      },
+      "age": {
+        "description": "age of the student",
+        "type": "number",
+        "minimum": 16
+      }
+    },
+    "required": ["id", "name", "age"]
+  }
+  
